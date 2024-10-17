@@ -1,0 +1,21 @@
+.item {
+    background-color: tomato;
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+
+.item img {
+    width: 100%;
+}
+.clear-float{
+   clear: left;
+}
+
+.bg-image {
+    /* text-align: center; */
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    /* background-image: url('http://www.engage.veented.com/bakery/wp-content/uploads/sites/27/2017/04/drew-coffman-1872.jpg'); */
+}

@@ -1,0 +1,8 @@
+.item p{
+    display: none;
+    color: blueviolet;
+}
+
+.item h2:hover + p {
+    display: block;
+}

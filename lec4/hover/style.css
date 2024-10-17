@@ -1,0 +1,7 @@
+.test{
+    width: 400px;
+    height: 400px;
+    background-color: #09c;
+    transition: width 1s, height 1s 1s, ;
+
+}

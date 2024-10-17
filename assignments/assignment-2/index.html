@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment 2</title>
+  </head>
+  <body>
+    <form style="background-color: #f7efe5">
+      <fieldset>
+        <legend style="background-color: #e2bfd9">Personal Data</legend>
+        <fieldset style="background-color: #ffebd4">
+          <legend style="background-color: #c8a1e0; padding: 30px 0">
+            YourName
+          </legend>
+          <table>
+            <tr>
+              <td><label for="first-name">First Name</label></td>
+              <td>:</td>
+              <td>
+                <input
+                  type="text"
+                  name="first-name"
+                  id="first-name"
+                  placeholder="ex dima"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="last-name">Second Name</label></td>
+              <td>:</td>
+              <td>
+                <input
+                  type="text"
+                  name="last-name"
+                  id="last-name"
+                  placeholder="ex ali"
+                />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+        <br /><br />
+        <table>
+          <tr>
+            <td><label for="phone">Your phone</label></td>
+            <td>:</td>
+            <td><input type="tel" name="phoneNo" id="phone" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email </label></td>
+            <td>:</td>
+            <td><input type="email" id="email" name="email" /></td>
+          </tr>
+          <tr>
+            <td><label for="pass">Password</label></td>
+            <td>:</td>
+            <td><input type="password" name="pass" id="pass" /></td>
+          </tr>
+          <tr>
+            <td><label for="repass">Re-assword</label></td>
+            <td>:</td>
+            <td><input type="password" name="repass" id="repass" /></td>
+          </tr>
+        </table>
+        <br /><br />
+
+        <input type="radio" id="male" name="gender" value="male" />
+          <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label><br /><br /><br />
+
+        <input type="checkbox" id="Student" name="Student" value="student" />
+        <label for="Student"> Student</label><br />
+        <input
+          type="checkbox"
+          id="Graduated"
+          name="Graduated"
+          value="graduated"
+        />
+        <label for="Graduated"> Graduated</label><br /><br /><br />
+
+        <select name="product">
+          <optgroup label="Men">
+            <option value="sport">Sports</option>
+          </optgroup>
+          <optgroup label="Women">
+            <option value="bag">Bags</option>
+            <option value="Accessories">Accessories</option>
+          </optgroup>
+          <optgroup label="Kids" disabled>
+            <option value="girl">Baby Girl</option>
+            <option value="Boy">Baby Boy</option>
+            <option value="school">School</option>
+          </optgroup>
+        </select>
+        <br /><br />
+        <button type="submit">
+          <img src="./submit-black-button.jpg" alt="submit image" width="60" />
+        </button>
+      </fieldset>
+    </form>
+  </body>
+</html>

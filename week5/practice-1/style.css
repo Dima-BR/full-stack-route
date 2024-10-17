@@ -1,0 +1,22 @@
+.test {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    position: relative;
+    animation: move-item 15s infinite;
+
+}
+
+@keyframes move-item {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 1200px;
+    }
+
+    100% {
+        left: 0;
+    }
+}

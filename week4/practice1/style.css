@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.baking .item {
+  width: 33.333%;
+  float: left;
+  padding: 0 30px;
+}
+.baking .item .inner {
+  /* background-color: blueviolet; */
+  /* border: 1px solid red; */
+}
+
+.baking .item img {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .baking .item {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .baking .item {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .baking .item {
+    width: 33.333%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .baking .item {
+    width: 50%;
+  }
+}

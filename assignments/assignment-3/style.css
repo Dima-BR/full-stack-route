@@ -1,0 +1,227 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Alegreya";
+  font-size: 32px;
+  color: #303030;
+}
+
+.our-baking p,
+.wrapper p,
+.container p,
+.list-item span,
+.contact-item p{
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 17px;
+  line-height: 1.86em;
+  color: #686868;
+}
+
+.hero-banner {
+  background-image: url("http://www.engage.veented.com/bakery/wp-content/uploads/sites/27/2017/04/drew-coffman-1872.jpg");
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding: 15% 20px;
+  margin: auto;
+  color: #ffffff;
+}
+
+.hero-banner .hero-banner p,
+.hero-banner h1,
+.hero-buttons {
+  font-family: "Alegreya Sans", sans-serif;
+  display: inline-block;
+  margin: auto;
+}
+
+.hero-banner h1 {
+  font-size: 34px;
+  font-weight: 400;
+  font-family: "Alegreya", serif;
+}
+
+.hero-banner .welcome-txt {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 22px;
+}
+
+.hero-banner .description {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+  /* width: 59%; */
+  text-align: center;
+}
+
+.hero-banner .hero-buttons button {
+  padding: 15px 28px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 700;
+}
+
+.btn-brown {
+  background-color: #8e7754;
+  border: 3px solid transparent;
+}
+
+.btn-white {
+  background-color: transparent;
+  border: 3px solid #fff;
+  margin-left: 5px;
+}
+
+/* Who we are section */
+.container {
+  margin: 40px auto;
+  width: 70%;
+}
+
+.container .item {
+  width: 50%;
+  float: left;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.container .image img {
+  width: 80%;
+}
+
+.container .content {
+  /* text-align: left; */
+}
+.container .list-item img{
+  width: 40px;
+}
+
+/* Our location section */
+.bg-gray {
+  background-color: #F8F8F8;
+}
+
+.wrapper {
+  background-color: #F8F8F8;
+  margin: 40px auto;
+  width: 70%;
+  padding: 50px;
+}
+
+.wrapper .loc-item {
+  float: left;
+  width: 47%;
+}
+.wrapper .location-content {
+  /* margin-left: 10px; */
+  padding-right: 10px;
+}
+
+.wrapper .loc-item img {
+  /* margin-left: 40px; */
+  width: 82%;
+}
+
+
+/* our-baking section */
+.our-baking {
+  margin: 40px auto;
+  width: 70%;
+}
+
+.our-baking .baking-content {
+  text-align: center;
+}
+
+.baking-item {
+  float: left;
+  width: 33.333%;
+  text-align: center;
+}
+
+.baking-item h5 {
+  font-size: 22px;
+  font-family: "Alegreya", serif;
+  color: #303030;
+  font-weight: 400;
+}
+
+.baking-item img {
+  width: 80%;
+}
+/* Contact Information section */
+.contact-information{
+  background-color: #F8F8F8;
+  margin: 40px auto;
+  width: 70%;
+}
+.contact-item{
+  float: left;
+  width: 40%;
+}
+ul{
+  padding: 0;
+  list-style-type: none;
+}
+ul li {
+  list-style: none;
+  padding: 8px 0;
+}
+.contact-information map img{
+  width: 80%;
+}
+/* Footer section  */
+.dark-grey{
+  background-color: #403D38;
+}
+.footer-container{
+  width: 70%;
+  margin: 0 auto;
+  padding: 60px 0 ;
+}
+.footer-container h4{
+  color: #fff;
+  font-size: 18px;
+  font-family: "Alegreya";
+
+}
+.about-us p{
+  color: #969696;
+}
+.footer-item {
+  float: left;
+  width: 22%;
+  padding: 0 12px;
+}
+.footer-item ul li {
+  color: #969696;
+  font-size: 16px;
+  font-family: "Alegreya Sans", sans-serif;
+  border-bottom: 2px solid #4d4949;
+}
+.greater-sign{
+  display: inline-block;
+  font-weight: 700;
+  padding: 0 3px;
+}
+/* footer banner  */
+.dark{
+  background-color: #353330;
+}
+.footer-wrapper{
+  text-align: center;
+  padding: 50px 0 ;
+}
+.footer-wrapper p{
+color: #777777;
+font-size: 15px;
+margin: 15px 0;
+}

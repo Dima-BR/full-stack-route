@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about .item {
+    width: 25%;
+    padding: 0 25px;
+}
+
+.about .item .inner {
+    background-color: #eee;
+    /* border: 2px solid #000; */
+    text-align: center;
+}
+
+.about .item img {
+    width: 100%;
+}
