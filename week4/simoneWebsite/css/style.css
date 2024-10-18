@@ -14,6 +14,8 @@
 
 :root {
     --main-color: #20c997;
+    --white-color: #fff;
+    --black-color: #333;
 }
 
 body {
@@ -114,6 +116,14 @@ a {
     width: 100%;
     top: 0;
     left: 0;
+}
+.navbar #burger-menu {
+    display: none;
+}
+.navbar label {
+    display: none;
+    color: var(--white-color);
+    margin-left: auto;
 }
 
 .navbar .container {
@@ -268,3 +278,51 @@ a {
     border-right: 2px dashed #444;
     padding-right: 0px;
 }
+
+/* media    Query  */
+@media screen and (max-width: 1400px){
+
+}
+@media screen and (max-width: 1200px){}
+
+
+@media screen and (max-width: 995px){
+    .navbar .container .social-media {
+        display: none;
+    }
+    .navbar .container .navbar-menu{
+        position: absolute;
+        flex-direction: column;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        background-color: #333;
+        /* display: none; */
+        height: 0;
+        /* max-height: 0; */
+        overflow: hidden;
+        transition: ease-in-out .8s;
+    }
+    .navbar label {
+        display:inline-block
+    }
+    .navbar-menu li a {
+        padding: 10px 0;
+    }
+    .navbar #burger-menu:checked ~ .navbar-menu{
+        /* display: flex; */
+        /* max-height: 100dvh; */
+        height: 100dvh;
+    }
+    .navbar-menu li:not(:last-child) {
+        border-bottom: #17a67b 1px solid;
+    }
+    .navbar-menu li a {
+        display: block;
+    }
+
+}
+@media screen and (max-width: 768px){
+}
+@media screen and (max-width: 576px){}
