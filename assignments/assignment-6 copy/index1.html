@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 6</title>
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg custom-nav fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Devfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Parallax Section -->
+    <div class="parallax">
+      <div class="parallax-overlay">
+        <div class="hero-text">
+          <h1>I am Morgan Freeman</h1>
+          <p>Experience the smooth parallax effect with Bootstrap 5</p>
+          <a href="#content" class="btn btn-light btn-lg mt-4">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content Section -->
+    <section id="content" class="py-5 bg-light">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          egestas ligula nec mi volutpat, sed placerat urna tristique.
+        </p>
+        <p>
+          Vivamus tristique quam nec magna elementum, sed dictum odio
+          sollicitudin.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Us Section -->
+<section id="contact-us" class="py-5 bg-light">
+  <div class="container">
+    
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <div class="row">
+      <!-- Contact Form Column -->
+      <div class="col-md-6">
+        <h4 class="contact-subtitle">Send Message Us</h4>
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <!-- Contact Info Column -->
+      <div class="col-md-6 mb-4">
+        <h4 class="contact-subtitle">Get in Touch</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia inventore?</p>
+        <ul class="list-unstyled">
+          <li class="d-flex"><span>ii</span> <p>329 WASHINGTON ST BOSTON, MA 02108</p></li>
+          <li><strong>Phone:</strong> (617) 557-0089</li>
+          <li><strong>Email:</strong>contact@example.com</li>
+        </ul>
+        <div>
+          <h5>Follow Us</h5>
+          <a href="#" class="text-decoration-none me-3">Facebook</a>
+          <a href="#" class="text-decoration-none me-3">Twitter</a>
+          <a href="#" class="text-decoration-none">LinkedIn</a>
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+</section>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

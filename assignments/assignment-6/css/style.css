@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+/* Global  */
+.main-title {
+    text-align: center;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+section {
+    padding-block: 70px;
+}
+
+.main-title h2 {
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 48px;
+
+}
+
+.main-title::after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 20px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 5px;
+    background-color: #09c;
+}
+
+p {
+    color: #4E4E4E;
+}
+
+a {
+    text-decoration: none;
+    color: #1e1e1e;
+    transition: all 0.5s ease-in-out;
+}
+
+
+/* NavBar  */
+.custom-nav {
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.9) !important;
+}
+
+.custom-nav .navbar-nav {}
+
+.custom-nav .navbar-nav .nav-link {
+    position: relative;
+    padding-left: 0 !important;
+    padding-right: 20px !important;
+}
+
+.custom-nav .navbar-nav .nav-link::before {
+    content: "";
+    position: absolute;
+    top: calc(100%);
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #fff;
+    transition: width 0.5s;
+}
+
+.custom-nav .navbar-nav .nav-link.active::before {
+    width: 50px;
+}
+
+.custom-nav .navbar-nav .nav-link:hover::before {
+    width: 70%;
+}
+
+/* <!-- =========== Start Hero  =========== --> */
+.hero {
+    background: url("../images/home.jpg") center no-repeat;
+    background-size: cover;
+}
+
+/* <!-- =========== End Hero  =========== --> */
+/* about section */
+.custome-title-about {
+    margin-bottom: 3rem;
+}
+
+.custome-title-about::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+}
+
+/* about section  */
+
+/* <!--  Start SERVICES    --> */
+.services {
+    padding-bottom: unset
+}
+
+.services .card span {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 30px;
+    transition: all 0.5s;
+    box-shadow: 0 0 0 10px #0078ff;
+    margin-bottom: 10px;
+}
+
+.services .card {
+    padding-block: 20px;
+}
+
+.services .card:hover span {
+    box-shadow: 0 0 0 10px rgba(0, 153, 204, 0.316);
+    background-color: #0078ff;
+    color: #fff;
+}
+
+.card-body h3 {
+    margin-top: 25px;
+}
+
+.services .counter {
+    background: url("../images/counters-bg.jpg") center fixed no-repeat;
+    background-size: cover;
+}
+
+.services .counter .layer {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.services .counter .layer span {
+    outline: 10px solid #CDE1F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.services .counter .layer span i,
+span i {
+    font-size: 30px;
+}
+
+/* <!--  End SERVICES    --> */
+
+/* <!--  Start PORTFOLIO    --> */
+
+.portfolio .card img {
+    transition: all 0.5s;
+}
+
+.portfolio .card:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.2);
+}
+
+/* <!--  End PORTFOLIO    --> */
+
+/* <!--  Start slider    --> */
+.slider {
+    background: url("../images/overlay-bg.jpg") center fixed no-repeat;
+    background-size: cover;
+    padding-block: 0;
+}
+
+.slider .layer {
+    background-color: #0078ff9c !important;
+}
+
+.slider .carousel-indicators [data-bs-target] {
+    text-indent: unset;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.slider .carousel-indicators {
+    bottom: -30px;
+}
+
+.slider .carousel-item img,
+.slider .carousel-item h3,
+.slider .carousel-item p {
+    transform: scale(0);
+    transition: 1s;
+}
+
+.slider .carousel-item.active img,
+.slider .carousel-item.active h3,
+.slider .carousel-item.active p {
+    transform: scale(1);
+}
+
+.carousel-inner p {
+    color: #fff;
+}
+
+/* <!--  End slider    --> */
+/* start Blog */
+.bottom-n20 {
+    bottom: -20px !important;
+}
+
+.card-body h3 {
+    color: #1e1e1e;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.card-body h3:hover {
+    cursor: pointer;
+    color: #0078ff;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+/* End blog */
+
+/* <!--  Start Contact    --> */
+.contact {
+    background: url("../images/overlay-bg.jpg") center fixed no-repeat;
+    background-size: cover;
+}
+
+.contact .social {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 0;
+}
+
+.contact .social li {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #0D6EFD;
+    border-radius: 50%;
+}
+
+/* <!--  End Contact    --> */

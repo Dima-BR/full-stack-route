@@ -1,0 +1,44 @@
+
+.gallery .container{
+    display: grid;
+    height: 600px;
+    grid-template-rows: repeat(2, 50vh);
+    grid-template-areas:
+    "tomato tomato tomato tomato kajo kajo kajo kajo kajo kajo greens greens"
+    "salad-1 salad-1 salad-1 salad-1 lemon lemon lemon salad-2 salad-2 salad-2 greens greens";
+}
+
+.tomato {
+    background-color: tomato;
+    grid-area: tomato;
+}
+
+.kajo{
+    background-color: tomato;
+    grid-area: kajo;
+}
+.lemon{
+    background-color: yellowgreen;
+    grid-area: lemon;
+}
+.salad-1{
+    background-color: orange;
+    grid-area: salad-1;
+}
+.salad-2{
+    background-color: blueviolet;
+    grid-area: salad-2;
+}
+.greens {
+    background-color: green;
+    grid-area: greens;
+}
+
+
+
+
+
+
+/* .gallery .container img{
+
+} */

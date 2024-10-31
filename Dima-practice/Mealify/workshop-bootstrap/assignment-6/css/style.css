@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --main-color: #E65E77;
+    --secondary-color: #333333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#home {
+    background-image: url(../assets/header.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cv-btn {
+    border: 1px solid white;
+    padding: 7px 20px;
+}
+
+.cv-btn:hover {
+    background-color: #fff;
+    color: #333333 !important;
+}
