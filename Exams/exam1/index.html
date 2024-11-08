@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam 1</title>
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- FontAwesome Css CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example">
+    <!-- Navbar  -->
+    <nav
+      id="navbar-example"
+      class="navbar navbar-expand-lg fixed-top py-3 custom-nav"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a class="navbar-brand logo" href="#">Daniels </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse custom-nav-mobile" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#services"
+                >Services</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#portfolio">Works</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#clients"
+                >Clients</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#team">Team</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar  -->
+    <!-- Start Hero -->
+    <section class="hero p-0" id="home">
+      <div class="layer bg-black bg-opacity-50">
+        <div
+          class="container d-flex flex-column gap-5 justify-content-center align-items-center vh-100 text-center"
+        >
+          <div class="text-white">
+            <span class="hello">Hello</span>
+            <h1 class="display-2">
+              I am <span id="element" class="fw-bold-400"></span>
+            </h1>
+          </div>
+          <div class="socialmedia">
+            <a href="#"
+              ><span class=""><i class="fa-brands fa-facebook-f"></i></span
+            ></a>
+            <a href="#"
+              ><span class=""><i class="fa-brands fa-x-twitter"></i></span
+            ></a>
+            <a href="#"
+              ><span class=""><i class="fa-brands fa-linkedin-in"></i></span
+            ></a>
+            <a href="#"
+              ><span class=""><i class="fa-brands fa-behance"></i></span
+            ></a>
+            <a href="#"
+              ><span class=""><i class="fa-brands fa-youtube"></i></span
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero  -->
+    <!--Start  About   -->
+    <section
+      class="about section-padding pb-70"
+      data-scroll-index="1"
+      id="about"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="about-img mb-30">
+              <img src="./imgs/hero.jpg" alt="about image" />
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="content mb-30">
+              <h3>About Me.</h3>
+              <span class="sub-title">UI / UX Designer & Web Developer</span>
+              <p>
+                I am <span class="bold-gray">Jerry Daniels</span> Lorem Ipsum is
+                simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever It
+                has survived not only five centuries, but also the leap into
+                electronic but also the leap into electronic typesetting,
+                remaining essentially unchanged. It was popularised in the 1960s
+                with the release of Letraset sheets containing
+              </p>
+
+              <!-- skills progress -->
+              <div class="skills">
+                <div class="item">
+                  <div class="skills-progress">
+                    <h6>Web Design</h6>
+                    <span data-value="95%" style="width: 95%"></span>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="skills-progress">
+                    <h6>Branding</h6>
+                    <span data-value="80%" style="width: 80%"></span>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="skills-progress">
+                    <h6>Development</h6>
+                    <span data-value="90%" style="width: 90%"></span>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="clearfix"></div> -->
+
+              <a href="#" download="">
+                <span class="buton buton-bg">Download C.V</span>
+              </a>
+              <a href="#0" data-scroll-nav="6" class="">
+                <span class="buton">Contact Me</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /row -->
+      </div>
+      <!-- /container -->
+    </section>
+    <!-- End About   -->
+    <!--  Start SERVICES    -->
+    <section class="services section-padding bg-gray" id="services">
+      <div class="container overflow-hidden">
+        <div class="main-title">
+          <h2 class="text-center">Services.</h2>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4">
+          <div class="col">
+            <div class="card border-0 text-center">
+              <div class="card-body">
+                <span><i class="fa-solid fa-laptop"></i></span>
+                <h3 class="h5">WEB DESIGN</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card border-0 text-center">
+              <div class="card-body">
+                <span><i class="fa fa-bullhorn"></i></span>
+                <h3 class="h5">Branding</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card border-0 text-center">
+              <div class="card-body">
+                <span><i class="fa fa-umbrella"></i></span>
+                <h3 class="h5">Development</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card border-0 text-center">
+              <div class="card-body">
+                <span><i class="fa-regular fa-gem"></i></span>
+                <h3 class="h5">Creative Design</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card border-0 text-center">
+              <div class="card-body">
+                <span><i class="fa fa-television"></i></span>
+                <h3 class="h5">Fully Responsive</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card border-0 text-center">
+              <div class="card-body">
+                <span><i class="fa fa-camera"></i></span>
+                <h3 class="h5">Retina Ready</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  End SERVICES    -->
+    <!-- Portfolio Start -->
+    <section
+      id="portfolio"
+      class="portfolio section-padding pb-70"
+      data-scroll-index="3"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="main-title">
+            <h2 class="text-center">Portfolio.</h2>
+          </div>
+
+          <!-- Portfolio -->
+          <div class="pb-5">
+            <ul
+              class="nav nav-pills mb-3 justify-content-center py-5 filtering"
+              id="pills-tab"
+              role="tablist"
+            >
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="all-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#all"
+                  type="button"
+                  role="tab"
+                  aria-controls="all"
+                  aria-selected="true"
+                >
+                  All
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="seo-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#seo"
+                  type="button"
+                  role="tab"
+                  aria-controls="seo"
+                  aria-selected="false"
+                >
+                  Brand
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="web-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#web"
+                  type="button"
+                  role="tab"
+                  aria-controls="web"
+                  aria-selected="false"
+                >
+                  Design
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="work-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#work"
+                  type="button"
+                  role="tab"
+                  aria-controls="work"
+                  aria-selected="false"
+                >
+                  Graphic
+                </button>
+              </li>
+            </ul>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="workModal"
+              tabindex="-1"
+              aria-labelledby="workModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body text-center">
+                    <img
+                      id="modalImage"
+                      src="./imgs/portfolio/1.jpg"
+                      class="img-fluid"
+                      alt="Selected Work"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="modal fade"
+              id="workModal2"
+              tabindex="-1"
+              aria-labelledby="workModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body text-center">
+                    <img
+                      id="modalImage"
+                      src="./imgs/portfolio/2.jpg"
+                      class="img-fluid"
+                      alt="Selected Work"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="modal fade"
+              id="workModal3"
+              tabindex="-1"
+              aria-labelledby="workModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body text-center">
+                    <img
+                      id="modalImage"
+                      src="./imgs/portfolio/3.jpg"
+                      class="img-fluid"
+                      alt="Selected Work"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="modal fade"
+              id="workModal4"
+              tabindex="-1"
+              aria-labelledby="workModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body text-center">
+                    <img
+                      id="modalImage"
+                      src="./imgs/portfolio/4.jpg"
+                      class="img-fluid"
+                      alt="Selected Work"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Moadal -->
+
+            <div class="tab-content" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="all"
+                role="tabpanel"
+                aria-labelledby="all-tab"
+                tabindex="0"
+              >
+                <div class="container">
+                  <div class="row g-3">
+                    <div class="col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img
+                          class="img-fluid"
+                          src="./imgs/portfolio/1.jpg"
+                          alt="1"
+                        />
+                        <div
+                          class="layer position-absolute text-white"
+                          data-bs-toggle="modal"
+                          data-bs-target="#workModal"
+                          data-bs-whatever="./imgs/portfolio/1.jpg"
+                        >
+                          <h5 class="text-uppercase">Web Design</h5>
+                          <div class="icons">
+                            <span class="icon"
+                              ><i class="fa-solid fa-link"></i
+                            ></span>
+                            <span class="icon"
+                              ><i class="fa-solid fa-magnifying-glass-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img
+                          class="img-fluid"
+                          src="./imgs/portfolio/2.jpg"
+                          alt="1"
+                        />
+                        <div
+                          class="layer position-absolute text-white"
+                          data-bs-toggle="modal"
+                          data-bs-target="#workModal2"
+                          data-bs-whatever="./imgs/portfolio/2.jpg"
+                        >
+                          <h5 class="text-uppercase">Web Design</h5>
+                          <div class="icons">
+                            <span class="icon"
+                              ><i class="fa-solid fa-link"></i
+                            ></span>
+                            <span class="icon"
+                              ><i class="fa-solid fa-magnifying-glass-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img
+                          class="img-fluid"
+                          src="./imgs/portfolio/3.jpg"
+                          alt="1"
+                        />
+                        <div
+                          class="layer position-absolute text-white"
+                          data-bs-toggle="modal"
+                          data-bs-target="#workModal3"
+                          data-bs-whatever="./imgs/portfolio/3.jpg"
+                        >
+                          <h5 class="text-uppercase">Web Design</h5>
+                          <div class="icons">
+                            <span class="icon"
+                              ><i class="fa-solid fa-link"></i
+                            ></span>
+                            <span class="icon"
+                              ><i class="fa-solid fa-magnifying-glass-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img
+                          class="img-fluid"
+                          src="./imgs/portfolio/4.jpg"
+                          alt="1"
+                        />
+                        <div
+                          class="layer position-absolute text-white"
+                          data-bs-toggle="modal"
+                          data-bs-target="#workModal4"
+                          data-bs-whatever="./imgs/portfolio/4.jpg"
+                        >
+                          <h5 class="text-uppercase">Web Design</h5>
+                          <div class="icons">
+                            <span class="icon"
+                              ><i class="fa-solid fa-link"></i
+                            ></span>
+                            <span class="icon"
+                              ><i class="fa-solid fa-magnifying-glass-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img
+                          class="img-fluid"
+                          src="./imgs/portfolio/5.jpg"
+                          alt="1"
+                        />
+                        <div
+                          class="layer position-absolute text-white"
+                          data-bs-toggle="modal"
+                          data-bs-target="#workModal"
+                          data-bs-whatever="./imgs/portfolio/1.jpg"
+                        >
+                          <h5 class="text-uppercase">Web Design</h5>
+                          <div class="icons">
+                            <span class="icon"
+                              ><i class="fa-solid fa-link"></i
+                            ></span>
+                            <span class="icon"
+                              ><i class="fa-solid fa-magnifying-glass-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img
+                          class="img-fluid"
+                          src="./imgs/portfolio/6.jpg"
+                          alt="1"
+                        />
+                        <div
+                          class="layer position-absolute text-white"
+                          data-bs-toggle="modal"
+                          data-bs-target="#workModal"
+                          data-bs-whatever="./imgs/portfolio/1.jpg"
+                        >
+                          <h5 class="text-uppercase">Web Design</h5>
+                          <div class="icons">
+                            <span class="icon"
+                              ><i class="fa-solid fa-link"></i
+                            ></span>
+                            <span class="icon"
+                              ><i class="fa-solid fa-magnifying-glass-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="seo"
+                role="tabpanel"
+                aria-labelledby="seo-tab"
+                tabindex="0"
+              >
+                <div class="container">
+                  <div class="row g-3">
+                    <div class="col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img
+                          class="img-fluid"
+                          src="./imgs/portfolio/1.jpg"
+                          alt="1"
+                        />
+                        <div
+                          class="layer position-absolute text-white"
+                          data-bs-toggle="modal"
+                          data-bs-target="#workModal"
+                          data-bs-whatever="./imgs/portfolio/1.jpg"
+                        >
+                          <h5 class="text-uppercase">Web Design</h5>
+                          <div class="icons">
+                            <span class="icon"
+                              ><i class="fa-solid fa-link"></i
+                            ></span>
+                            <span class="icon"
+                              ><i class="fa-solid fa-magnifying-glass-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img
+                          class="img-fluid"
+                          src="./imgs/portfolio/2.jpg"
+                          alt="1"
+                        />
+                        <div
+                          class="layer position-absolute text-white"
+                          data-bs-toggle="modal"
+                          data-bs-target="#workModal"
+                          data-bs-whatever="./imgs/portfolio/1.jpg"
+                        >
+                          <h5 class="text-uppercase">Web Design</h5>
+                          <div class="icons">
+                            <span class="icon"
+                              ><i class="fa-solid fa-link"></i
+                            ></span>
+                            <span class="icon"
+                              ><i class="fa-solid fa-magnifying-glass-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img
+                          class="img-fluid"
+                          src="./imgs/portfolio/4.jpg"
+                          alt="1"
+                        />
+                        <div
+                          class="layer position-absolute text-white"
+                          data-bs-toggle="modal"
+                          data-bs-target="#workModal"
+                          data-bs-whatever="./imgs/portfolio/1.jpg"
+                        >
+                          <h5 class="text-uppercase">Web Design</h5>
+                          <div class="icons">
+                            <span class="icon"
+                              ><i class="fa-solid fa-link"></i
+                            ></span>
+                            <span class="icon"
+                              ><i class="fa-solid fa-magnifying-glass-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="web"
+                role="tabpanel"
+                aria-labelledby="web-tab"
+                tabindex="0"
+              >
+                <div class="container">
+                  <div class="row g-3">
+                    <div class="col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img
+                          class="img-fluid"
+                          src="./imgs/portfolio/3.jpg"
+                          alt="1"
+                        />
+                        <div
+                          class="layer position-absolute text-white"
+                          data-bs-toggle="modal"
+                          data-bs-target="#workModal"
+                          data-bs-whatever="./imgs/portfolio/1.jpg"
+                        >
+                          <h5 class="text-uppercase">Web Design</h5>
+                          <div class="icons">
+                            <span class="icon"
+                              ><i class="fa-solid fa-link"></i
+                            ></span>
+                            <span class="icon"
+                              ><i class="fa-solid fa-magnifying-glass-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img
+                          class="img-fluid"
+                          src="./imgs/portfolio/4.jpg"
+                          alt="1"
+                        />
+                        <div
+                          class="layer position-absolute text-white"
+                          data-bs-toggle="modal"
+                          data-bs-target="#workModal"
+                          data-bs-whatever="./imgs/portfolio/1.jpg"
+                        >
+                          <h5 class="text-uppercase">Web Design</h5>
+                          <div class="icons">
+                            <span class="icon"
+                              ><i class="fa-solid fa-link"></i
+                            ></span>
+                            <span class="icon"
+                              ><i class="fa-solid fa-magnifying-glass-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img
+                          class="img-fluid"
+                          src="./imgs/portfolio/5.jpg"
+                          alt="1"
+                        />
+                        <div class="layer position-absolute text-white">
+                          <h5 class="text-uppercase">Web Design</h5>
+                          <div class="icons">
+                            <span class="icon"
+                              ><i class="fa-solid fa-link"></i
+                            ></span>
+                            <span class="icon"
+                              ><i class="fa-solid fa-magnifying-glass-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img
+                          class="img-fluid"
+                          src="./imgs/portfolio/6.jpg"
+                          alt="1"
+                        />
+                        <div class="layer position-absolute text-white">
+                          <h5 class="text-uppercase">Web Design</h5>
+                          <div class="icons">
+                            <span class="icon"
+                              ><i class="fa-solid fa-link"></i
+                            ></span>
+                            <span class="icon"
+                              ><i class="fa-solid fa-magnifying-glass-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="work"
+                role="tabpanel"
+                aria-labelledby="work-tab"
+                tabindex="0"
+              >
+                <div class="container">
+                  <div class="row g-3">
+                    <div class="col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img
+                          class="img-fluid"
+                          src="./imgs/portfolio/1.jpg"
+                          alt="1"
+                        />
+                        <div class="layer position-absolute text-white">
+                          <h5 class="text-uppercase">Web Design</h5>
+                          <div class="icons">
+                            <span class="icon"
+                              ><i class="fa-solid fa-link"></i
+                            ></span>
+                            <span class="icon"
+                              ><i class="fa-solid fa-magnifying-glass-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img
+                          class="img-fluid"
+                          src="./imgs/portfolio/2.jpg"
+                          alt="1"
+                        />
+                        <div class="layer position-absolute text-white">
+                          <h5 class="text-uppercase">Web Design</h5>
+                          <div class="icons">
+                            <span class="icon"
+                              ><i class="fa-solid fa-link"></i
+                            ></span>
+                            <span class="icon"
+                              ><i class="fa-solid fa-magnifying-glass-plus"></i
+                            ></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--portfolio end  -->
+
+    <!--  Start slider    -->
+    <section class="testimonials py-5 section-padding bg-gray" id="clients">
+      <div class="container text-center py-5 my-5">
+        <div class="row">
+          <div class="main-title">
+            <h2 class="text-center">Testimonials.</h2>
+          </div>
+          <div
+            id="testimonialCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#testimonialCarousel"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#testimonialCarousel"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#testimonialCarousel"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+
+            <!-- Carousel Items -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="testimonial-content">
+                  <img
+                    src="./imgs/1_New1.jpg"
+                    alt="Customer photo"
+                    class="rounded-circle mb-3"
+                  />
+                  <p class="testimonial-text">
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.
+                  </p>
+                  <h5 class="testimonial-name">Alex Smith</h5>
+                  <p class="testimonial-position">Envato Customer</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testimonial-content">
+                  <img
+                    src="./imgs/1_New1.jpg"
+                    alt="Customer photo"
+                    class="rounded-circle mb-3"
+                  />
+                  <p class="testimonial-text">
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.
+                  </p>
+                  <h5 class="testimonial-name">John Doe</h5>
+                  <p class="testimonial-position">Envato Customer</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testimonial-content">
+                  <img
+                    src="./imgs/1_New1.jpg"
+                    alt="Customer photo"
+                    class="rounded-circle mb-3"
+                  />
+                  <p class="testimonial-text">
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    since the when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.
+                  </p>
+                  <h5 class="testimonial-name">Jane Doe</h5>
+                  <p class="testimonial-position">Envato Customer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slider End  -->
+
+    <!-- Start Counter -->
+    <section class="section-padding pb-70">
+      <div class="counter container">
+        <div class="row gy-4 text-center">
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div>
+              <span class="icon"><i class="fa-solid fa-user-group"></i></span>
+              <h3 class="number">850</h3>
+              <p class="h6">Happy Customers</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div>
+              <span class="icon"><i class="fa-solid fa-check"></i></span>
+              <h3 class="number">230</h3>
+              <p class="h6">Complete Projects</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div>
+              <span class="icon"><i class="fa-solid fa-code"></i></span>
+              <h3 class="number">9450</h3>
+              <p class="h6">Lines Of Code</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div>
+              <span class="icon"
+                ><i class="fa-solid fa-cloud-arrow-down"></i
+              ></span>
+              <h3 class="number">780</h3>
+              <p class="h6">Files Downloaded</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Counter -->
+    <!-- Our team section Start -->
+    <section
+      class="our-team section-padding bg-gray"
+      data-scroll-index="5"
+      id="team"
+    >
+      <div class="container">
+        <div class="row">
+          <!-- section heading -->
+          <div class="main-title">
+            <h2 class="text-center">Our Team.</h2>
+          </div>
+          <div class="team-area">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                  <div class="single-team img-rounded">
+                    <div class="img-area">
+                      <img src="./imgs/1.jpg" class="img-responsive" alt="" />
+                      <div class="social">
+                        <ul class="list-inline">
+                          <li>
+                            <a href="#"
+                              ><i class="fa-brands fa-facebook-f"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="fa-brands fa-x-twitter"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa-brands fa-behance"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="fa-brands fa-linkedin-in"></i
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="img-text">
+                      <h4>John Doe</h4>
+                      <h5>Front-End Developer</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                  <div class="single-team img-rounded">
+                    <div class="img-area">
+                      <img src="./imgs/2.jpg" class="img-responsive" alt="" />
+                      <div class="social">
+                        <ul class="list-inline">
+                          <li>
+                            <a href="#"
+                              ><i class="fa-brands fa-facebook-f"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="fa-brands fa-x-twitter"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa-brands fa-behance"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="fa-brands fa-linkedin-in"></i
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="img-text">
+                      <h4>Dave Wood</h4>
+                      <h5>Back-End Developer</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                  <div class="single-team img-rounded">
+                    <div class="img-area">
+                      <img src="./imgs/1.jpg" class="img-responsive" alt="" />
+                      <div class="social">
+                        <ul class="list-inline">
+                          <li>
+                            <a href="#"
+                              ><i class="fa-brands fa-facebook-f"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="fa-brands fa-x-twitter"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa-brands fa-behance"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="fa-brands fa-linkedin-in"></i
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="img-text">
+                      <h4>Claire Chedd</h4>
+                      <h5>Back-End Developer</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /row -->
+      </div>
+      <!-- /container -->
+    </section>
+    <!-- Our team section End-->
+
+    <!--  Start Contact    -->
+    <section class="contact section-padding" id="contact">
+      <div class="container">
+        <!-- Section Title -->
+        <div class="row justify-content-center">
+          <div class="main-title col-md-8 text-center">
+            <h2 class="text-center">Contact Us.</h2>
+          </div>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="row text-center mb-5 pb-5 justify-content-center">
+          <div class="col-md-3">
+            <div>
+              <span class="icon"><i class="fa fa-location-arrow"></i></span>
+            </div>
+            <h6>Address</h6>
+            <p>6834 Hollywood Blvd - Los Angeles CA</p>
+          </div>
+          <div class="col-md-3">
+            <div>
+              <span class="icon"><i class="fa fa-envelope"></i></span>
+            </div>
+            <h6>Email</h6>
+            <p>Support@website.com</p>
+          </div>
+          <div class="col-md-3">
+            <div>
+              <span class="icon"><i class="fa fa-phone"></i></span>
+            </div>
+            <h6>Phone</h6>
+            <p>+20 010 2517 8918</p>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-10">
+            <form class="contact-form">
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Name"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  rows="5"
+                  placeholder="Message"
+                  name="message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  end Contact    -->
+
+    <footer class="p-3 text-white bg-dark">
+      <div class="container text-center">
+        <p>Copy Right 2018 © By Daniels All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Larry Daniels", "Designer", "Developer"],
+        typeSpeed: 80,
+        loop: true,
+        backSpeed: 100,
+      });
+
+      // JavaScript to add/remove 'scrolled' class based on scroll position
+      window.addEventListener("scroll", function () {
+        const navbar = document.getElementById("navbar-example");
+        if (window.scrollY > 50) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+      });
+    </script>
+    <!-- Bootstrap 5 JS -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
