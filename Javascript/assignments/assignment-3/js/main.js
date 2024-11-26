@@ -16,7 +16,7 @@ if (localStorage.getItem("bookmarksList")) {
 
 
 var nameRegex = /^[a-zA-Z0-9 ]{3,40}$/;
-// for this I used google 🙃
+// for this I used google >> gemini 🙃
 var urlRegex = /^(https?:\/\/)?([\w\-]+\.)+[\w\-]+(\/[\w\-]*)*\/?$/;
 
 
@@ -67,13 +67,12 @@ function addBookmark() {
   var isDuplicateName = false;
 
   for (let i = 0; i < bookmarks.length; i++) {
-    if (bookmarks[i].siteName.toLowerCase() === name.toLowerCase()) {
+    if (bookmarks[i].name.toLowerCase() === siteName.value.trim().toLowerCase()) {
       isDuplicateName = true;
-      break; // أوقف الحلقة بمجرد العثور على تطابق
+      break; 
     }
   }
 
-  // إذا كان الاسم مكررًا، أظهر رسالة الخطأ وأوقف الإضافة
   if (isDuplicateName) {
     showModal("The bookmark name already exists. Please use a different name.");
     return;
@@ -94,7 +93,7 @@ function addBookmark() {
 
   displayBookmarks();
 
-  // تنظيف الحقول
+ 
   siteName.value = "";
   siteURL.value = "";
   clearError(siteName);
