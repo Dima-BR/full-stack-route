@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Form</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>Add Product</h1>
+      <form>
+        <div class="mb-3">
+          <label for="productName" class="form-label">Product Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="productName"
+            placeholder="Enter product name"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="productPrice" class="form-label">Product Price</label>
+          <input
+            type="number"
+            class="form-control"
+            id="productPrice"
+            placeholder="Enter product price"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="productCategory" class="form-label"
+            >Product Category</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="productCategory"
+            placeholder="Enter product category"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="productDescription" class="form-label"
+            >Product Description</label
+          >
+          <textarea
+            class="form-control"
+            id="productDescription"
+            rows="3"
+            placeholder="Enter product description"
+            required
+          ></textarea>
+        </div>
+
+        <div class="mb-3">
+          <label for="productSize" class="form-label">Product Size</label>
+          <select class="form-select" id="productSize" required>
+            <option selected disabled>Choose size</option>
+            <option value="Small">Small</option>
+            <option value="Medium">Medium</option>
+            <option value="Large">Large</option>
+            <option value="Extra Large">Extra Large</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="productImage" class="form-label">Product Image</label>
+          <input type="file" class="form-control" id="productImage"  />
+        </div>
+
+        <button
+          onclick="addProduct()"
+          type="submit"
+          class="btn btn-purple w-100 border-white text-white"
+        >
+          Add Product
+        </button>
+      </form>
+    </div>
+
+    <div class="container col-md-8">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control input-text" placeholder="Search By Name..." aria-label="" aria-describedby="">
+      </div>
+    </div>        
+   
+</div>
+<!-- Cards -->
+    <div class="container my-4">
+      <div id="rowData" class="row justify-content-center">
+        
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
