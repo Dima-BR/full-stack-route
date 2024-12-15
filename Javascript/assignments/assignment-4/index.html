@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid p-0">
+        <!-- Header Section -->
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container">
+                <a class="navbar-brand text-light" href="#">Weather <span class="text-primary">Forecast</span></a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link text-light" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#">News</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#">Live cameras</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#">Photos</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Hero Section -->
+        <div class="hero-section text-center py-5">
+            <h1 class="text-light">Find your location...</h1>
+            <div class="input-group mb-3 w-50 mx-auto">
+                <input type="text" id="cityInput" class="form-control" placeholder="Enter city name" />
+                <button id="findWeather" class="btn btn-primary">Find</button>
+            </div>
+        </div>
+
+        <!-- Weather Cards -->
+        <div class="container mt-3" id="weatherSection">
+            <div id="title"></div>
+            <div class="row justify-content-center" id="weatherCards">
+                <!-- Cards will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
