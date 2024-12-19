@@ -1,0 +1,65 @@
+:root {
+    --main-color: #9361F5;
+    --font-family-edu: "Edu AU VIC WA NT Pre", cursive;
+    --font-family-comic: "font-family: " Comic Neue", cursive;"
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-family-comic);
+}
+
+p,
+span,
+ul li {
+    font-family: var(--font-family-edu);
+}
+
+.add-task {
+    background-color: var(--main-color);
+    padding: 10px 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    border-color: var(--main-color) !important;
+    box-shadow: 0 0 0 .25rem #a15ce5;
+}
+
+.task-container .icon {
+    cursor: pointer;
+    background-color: var(--main-color);
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.task-container .task-name {
+    cursor: pointer;
+    position: relative;
+}
+
+.task-container .task-name::after {
+    content: "Click To Complete";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    color: #eee;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 8px;
+    pointer-events: none;
+    text-wrap: nowrap;
+    opacity: 0;
+    transition: opacity .3s;
+}
+.task-container .task-name:hover::after {
+    opacity: 1;
+}
